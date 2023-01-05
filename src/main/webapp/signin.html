@@ -1,0 +1,67 @@
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ثبت نام ادمین</title>
+    <link rel="stylesheet" href="assets/css/signinStyle.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+<div class="container">
+    <div class="form-container">
+        <div class="left-container">
+            <div class="left-inner-container">
+                <h1>آساحساب</h1>
+                <br><br><br><br>
+                <h2 class="lg-view">اطلاعات کارشناس شرکت</h2>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="right-inner-container">
+                <form action="/add" method="get">
+                    <div class="social-container">
+                    </div>
+                    <input type="text" name="id" dir="rtl" placeholder="کد شناسه"  required  />
+                    <input type="text"  name="CompanyName" id="CompanyName" dir="rtl" placeholder="نام شرکت" required />
+                    <input type="text" name="PhoneNumber" id="PhoneNumber" dir="rtl" placeholder="شماره تلفن" required />
+                    <input type="text" name="UserName" id="UserName" dir="rtl" placeholder="نام کاربری" required />
+                    <input type="text" name="ShenaseMeli" id="ShenaseMeli" dir="rtl" placeholder="شناسه ملی" required />
+                    <input type="text" name="getCodeTaeid" id="getCodeTaeid" dir="rtl" placeholder="پست الکترونیکی" required />
+                    <input type="text" name="Password" id="Password" dir="rtl" placeholder="رمز عبور" required />
+                    <a href="verificationcodesignin.html" style="display: inline-block ;padding: 10px ;width: 120px ; height: 40px; border-radius: 5px;background: #0dcaf0">ثبت</a>
+                    <input type="submit"  onkeyup="myFunction()"/>
+                    <button onclick="myFunction()" type="submit">ثبت</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function myFunction() {
+
+        if (
+            document.getElementById("CompanyName").valueOf.length == 0 ||
+            document.getElementById("PhoneNumber").valueOf.length == 0 ||
+            document.getElementById("UserName").valueOf.length == 0 ||
+            document.getElementById("ShenaseMeli").valueOf.length == 0 ||
+            document.getElementById("getCodeTaeid").valueOf.length == 0 ||
+            document.getElementById("Password").valueOf.length == 0
+        )
+        {
+            alert("لطفا اطلاعات را کامل کنید")
+        }
+        else
+        {
+            alert("با موفقیت انجام شد")
+        }
+    }
+    /*function myFunction() {
+        alert("با موفقیت ثبت شد");
+    }*/
+</script>
+</body>
+</html>

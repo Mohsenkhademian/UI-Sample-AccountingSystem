@@ -1,0 +1,42 @@
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ثبت اطلاعات بانکی </title>
+    <link rel="stylesheet" href="assets/css/signinStyle.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+<div class="container">
+    <div class="form-container">
+        <div class="left-container">
+            <div class="left-inner-container">
+                <h1>آساحساب</h1>
+                <br><br><br><br>
+                <h2 class="lg-view"> اطلاعات بانک  </h2>
+            </div>
+        </div>
+        <div class="right-container"style="height: 5px">
+            <div class="right-inner-container" >
+                <form action="/AddBank" method="get">
+
+                    <br><br><br><br><br><br><br><br><br><br>
+
+                    <input style="height: 25px " type="number" name="id" dir="rtl" placeholder="کد شناسه" required />
+                    <input style="height: 25px" type="text" name="Bank_Name" dir="rtl" placeholder="نام بانک " required />
+                    <input style="height: 25px"  type="text" name="ShomarCard" dir="rtl" placeholder="شماره کارت " required />
+                    <input style="height: 25px" type="text" name="ShomarHesab" dir="rtl" placeholder="شماره حساب" required />
+                    <input style="height: 25px" type="text" name="ShomarShaba" dir="rtl" placeholder="شماره شبا" required />
+
+                   <a href="verificationcodesignin.html" style="display: inline-block ;padding: 10px ;width: 120px ; height: 40px; border-radius: 5px;background: #0dcaf0">ثبت</a>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

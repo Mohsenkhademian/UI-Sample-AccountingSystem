@@ -1,0 +1,615 @@
+
+<html dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>اساحساب | اسم فروشگاه</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
+
+    <link rel="stylesheet" href="assets/plugins/iCheck/flat/blue.css">
+
+    <link rel="stylesheet" href="assets/plugins/morris/morris.css">
+
+    <link rel="stylesheet" href="assets/plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+
+    <link rel="stylesheet" href="assets/plugins/datepicker/datepicker3.css">
+
+    <link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker-bs3.css">
+
+    <link rel="stylesheet" href="assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/dist/css/bootstrap-rtl.min.css">
+
+    <link rel="stylesheet" href="assets/dist/css/custom-style.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body class="hold-transition sidebar-mini u-body u-xl-mode">
+<div class="wrapper">
+    <div class="sidebar" style="direction: ltr">
+
+        <nav  class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+
+            <ul class="navbar-nav">
+
+
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="paneladmin.html" style="margin-right: 20px " class="button"> ورود </a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="#" class="nav-link"> ثبت نام </a>
+                    <a href="signin.html" style="margin-right: 20px " class="button" >ثبت نام </a>
+                </li>
+
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="index3.html" class="nav-link">خانه</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="about2.jsp" style="margin-right: 20px " class="button">درباره ما</a>
+                </li>
+
+
+
+            </ul>
+
+
+
+
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="userprofile.html">
+                        <i class="fa fa-user-circle"></i>
+
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
+                        <a href="#" class="dropdown-item">
+
+                            <div class="media">
+                                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 img-circle">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        ادمین
+                                        <span class="float-left text-sm text-danger"><i class="fa fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">با من تماس بگیر لطفا...</p>
+                                    <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 ساعت قبل</p>
+                                </div>
+                            </div>
+
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle ml-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        پیمان احمدی
+                                        <span class="float-left text-sm text-muted"><i class="fa fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">من پیامتو دریافت کردم</p>
+                                    <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 ساعت قبل</p>
+                                </div>
+                            </div>
+
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+
+                            <div class="media">
+                                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle ml-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        سارا وکیلی
+                                        <span class="float-left text-sm text-warning"><i class="fa fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">پروژه اتون عالی بود مرسی واقعا</p>
+                                    <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i>4 ساعت قبل</p>
+                                </div>
+                            </div>
+
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">مشاهده همه پیام‌ها</a>
+                    </div>
+                </li>
+
+                <li style="margin-top:10px ;margin-left: 620px";  class="nav-item d-none d-sm-inline-block">
+                    <h5>آساحساب فروشگاه </h5>
+                </li>
+            </ul>
+        </nav>
+
+
+
+        <aside style="background: #0d6efd" ; class="main-sidebar sidebar-dark-primary elevation-4">
+
+            <a href="index3.html" class="brand-link">
+                <img src="assets/dist/img/accounting.png" alt="HTML5 Icon" style="width:40px;height:40px; border-radius: 50%;">
+                <span class="brand-text font-weight-light">پنل مشتری</span>
+            </a>
+
+
+            <div class="sidebar" style="direction: ltr">
+                <div style="direction: rtl">
+
+                    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                        <div class="image">
+                            <img src="assets/dist/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
+                        </div>
+                        <div class="info">
+                            <a href="#" class="d-block">مشتری</a>
+                        </div>
+                    </div>
+
+
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                            <li class="nav-item has-treeview menu-open">
+
+                                <form class="form-inline ml-3">
+                                    <div class="input-group input-group-sm">
+                                        <input class="form-control form-control-navbar" type="search" placeholder="جستجو" aria-label="Search">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-navbar" type="submit">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <ul class="nav nav-treeview">
+
+                            <li class="nav-item">
+
+                            </li>
+                            <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-pie-chart"></i>
+                                    <p>
+                                        دسته بندی کالاها
+                                        <i class="right fa fa-angle-left"></i>
+                                    </p>
+                                </a>
+                               <ul class="nav nav-treeview">
+                                  <li class="nav-item">
+                                     <a href="pages/charts/chartjs.html" class="nav-link">
+                                          <i class="fa fa-circle-o nav-icon"></i>
+                                        <p>نمودار ChartJS</p>
+                                      </a>
+                                  </li>
+                                   <li class="nav-item">
+                                       <a href="pages/charts/flot.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                           <p>نمودار Flot</p>
+                                      </a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a href="pages/charts/inline.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                           <p>نمودار Inline</p>
+                                      </a>
+                                   </li>
+                              </ul>
+                            </li>
+                            <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-tree"></i>
+                                    <p>
+                                        فیلتر های نوع کالا
+                                        <i class="fa fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="pages/UI/general.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>عمومی</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/UI/icons.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>آیکون‌ها</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/UI/buttons.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>دکمه‌ها</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/UI/sliders.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>اسلایدر‌ها</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-edit"></i>
+                                    <p>
+                                        کالاهای دیجیتال
+                                        <i class="fa fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="pages/forms/general.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>اجزا عمومی</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/forms/advanced.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>پیشرفته</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/forms/editors.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>ویشرایشگر</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-table"></i>
+                                    <p>
+                                        پر فروش ترین ها
+                                        <i class="fa fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="pages/tables/simple.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>جداول ساده</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/tables/data.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>جداول داده</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-header">رنج قیمت</li>
+                            <li class="nav-item">
+                                <a href="pages/calendar.html" class="nav-link">
+                                    <i class="nav-icon fa fa-calendar"></i>
+                                    <p>
+                                        تقویم
+                                        <span class="badge badge-info right">2</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-envelope-o"></i>
+                                    <p>
+                                        ایمیل‌ باکس
+                                        <i class="fa fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="pages/mailbox/mailbox.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>اینباکس</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/mailbox/compose.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>ایجاد</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/mailbox/read-mail.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>خواندن</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-book"></i>
+                                    <p>
+                                        صفحات
+                                        <i class="fa fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="pages/examples/invoice.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>سفارشات</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/examples/profile.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>پروفایل</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/examples/login.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>صفحه ورود</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/examples/register.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>صفحه عضویت</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/examples/lockscreen.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>قفل صفحه</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-plus-square-o"></i>
+                                    <p>
+                                        بیشتر
+                                        <i class="fa fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="pages/examples/404.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>ارور 404</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/examples/500.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>ارور 500</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/examples/blank.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>صفحه خالی</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="starter.html" class="nav-link">
+                                            <i class="fa fa-circle-o nav-icon"></i>
+                                            <p>صفحه شروع</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-header">متفاوت</li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-file"></i>
+                                    <p>مستندات</p>
+                                </a>
+                            </li>
+                            <li class="nav-header">برچسب‌ها</li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-circle-o text-danger"></i>
+                                    <p class="text">مهم</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-circle-o text-warning"></i>
+                                    <p>هشدار</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-circle-o text-info"></i>
+                                    <p>اطلاعات</p>
+                                </a>
+                            </li>
+                        </ul>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </aside>
+
+
+
+            <div style="width: 1080px" ; class="w3-row-padding">
+             <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="assets/dist/img/work-4.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                       <div class="w3-container w3-white">
+                         <p><b>Lorem Ipsum</b></p>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+              </div>
+             <div class="w3-third w3-container w3-margin-bottom">
+                <img src="assets/dist/img/work-5.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem Ipsum</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="assets/dist/img/work-6.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem Ipsum</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="width: 1080px" ; class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="assets/dist/img/work-10.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem Ipsum</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="assets/dist/img/work-12.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem Ipsum</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="assets/dist/img/work-11.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem Ipsum</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+
+
+        <h4>How much I charge</h4>
+
+        <div style="width: 1080px" ; class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+                    <li class="w3-padding-16">Web Design</li>
+                    <li class="w3-padding-16">Photography</li>
+                    <li class="w3-padding-16">1GB Storage</li>
+                    <li class="w3-padding-16">Mail Support</li>
+                    <li class="w3-padding-16">
+                        <h2>$ 10</h2>
+                        <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
+                    <li class="w3-padding-16">Web Design</li>
+                    <li class="w3-padding-16">Photography</li>
+                    <li class="w3-padding-16">50GB Storage</li>
+                    <li class="w3-padding-16">Endless Support</li>
+                    <li class="w3-padding-16">
+                        <h2>$ 25</h2>
+                        <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-third">
+                <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+                    <li class="w3-padding-16">Web Design</li>
+                    <li class="w3-padding-16">Photography</li>
+                    <li class="w3-padding-16">Unlimited Storage</li>
+                    <li class="w3-padding-16">Endless Support</li>
+                    <li class="w3-padding-16">
+                        <h2>$ 25</h2>
+                        <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="main-footer">
+        <div style=" direction: rtl"  class="w3-container w3-padding-32 w3-blue">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <h3>آساحساب</h3>
+                    <p>آساحساب نرم افزار تحت وب برای انجام امور حسابداری ......</p><br><br>
+                    <p>اگر یک فروشگاه دارید پس نیاز به فروش دارید اگر فروش دارید پس نیاز به حسابرس وگزارش نیز دارید</p>
+                </div>
+
+                <div class="w3-third">
+                    <h3>درباره ما</h3>
+                    <ul class="w3-ul w3-hoverable">
+                        <li class="w3-padding-16">
+
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w3-third">
+
+                    <br>
+
+                    <p>
+                        <a href="#" style="font-size: 32px;margin-right: 5px;margin-left: 5px;color: #f9f9f9;padding: 10px;transition: 0.2s;"><i class="fa fa-twitter"></i></a>
+                        <a href="#" style="font-size: 32px;margin-right: 5px;margin-left: 5px;color: #f9f9f9;padding: 10px;transition: 0.2s;"><i class="fa fa-facebook"></i></a>
+                        <a href="#" style="font-size: 32px;margin-right: 5px;margin-left: 5px;color: #f9f9f9;padding: 10px;transition: 0.2s;" ><i class="fa fa-google-plus"></i></a>
+                </div>
+                <button type="button" style="margin-right: 5px;margin-left: 5px;padding: 10px;">ما را دنبال کنید</button>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+</div>
+</div>
+
+</footer>
+</footer>
+
+
+
+
+
+
+    </div>
+</div>
+
+</body>
+</html>
